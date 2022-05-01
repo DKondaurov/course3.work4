@@ -3,8 +3,7 @@ from student;
 
 select *
 from student
-where age > 18
-  and age < 30;
+where age between 10 and 20;
 
 select name
 from student;
@@ -15,7 +14,7 @@ where name like '%у%';
 
 select *
 from student
-where age < 20;
+where age < id;
 
 select *
 from student
